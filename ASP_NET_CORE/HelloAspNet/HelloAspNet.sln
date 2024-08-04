@@ -7,13 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloMVC", "HelloMVC\HelloM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloRazor", "HelloRazor\HelloRazor.csproj", "{8072C879-B19D-471C-8D89-386A6F0C5343}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebAPI", "HelloWebAPI\HelloWebAPI.csproj", "{C3F9CCFF-21AA-4496-94B6-E24D05D22DF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWebAPI", "HelloWebAPI\HelloWebAPI.csproj", "{C3F9CCFF-21AA-4496-94B6-E24D05D22DF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloEmpty", "HelloEmpty\HelloEmpty.csproj", "{450126D7-CFF6-4599-A439-24DF5BCF4453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloEmpty", "HelloEmpty\HelloEmpty.csproj", "{450126D7-CFF6-4599-A439-24DF5BCF4453}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloBlazorServer", "HelloBlazorServer\HelloBlazorServer.csproj", "{9A2CC9C1-270D-4C89-BD18-EDFAC332FBCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloBlazorServer", "HelloBlazorServer\HelloBlazorServer.csproj", "{9A2CC9C1-270D-4C89-BD18-EDFAC332FBCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloBlazorClient", "HelloBlazorClient\HelloBlazorClient.csproj", "{723B014C-61F6-42A5-B5DA-EBA2C345FBB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloBlazorClient", "HelloBlazorClient\HelloBlazorClient.csproj", "{723B014C-61F6-42A5-B5DA-EBA2C345FBB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

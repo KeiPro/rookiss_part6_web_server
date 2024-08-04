@@ -6,18 +6,16 @@ namespace HelloEmpty
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // MVC를 사용하겠다는 코드.
-            builder.Services.AddControllersWithViews();
+			// RazorPage를 사용하겠다는 코드.
+			builder.Services.AddRazorPages();
 
-            var app = builder.Build();
+			var app = builder.Build();
 
             app.UseRouting();
 
-            app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+			app.MapRazorPages();
 
-            app.Run();
+			app.Run();
         }
     }
 }
