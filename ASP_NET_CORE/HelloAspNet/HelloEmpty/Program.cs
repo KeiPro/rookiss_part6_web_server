@@ -7,13 +7,13 @@ namespace HelloEmpty
             var builder = WebApplication.CreateBuilder(args);
 
 			// RazorPage를 사용하겠다는 코드.
-			builder.Services.AddRazorPages();
+			builder.Services.AddControllers();
 
 			var app = builder.Build();
 
             app.UseRouting();
 
-			app.MapRazorPages();
+			app.MapControllers();
 
 			app.Run();
         }
